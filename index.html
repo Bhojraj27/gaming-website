@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Josefin+Sans:wght@100;200;300;400;500&family=Lora:ital,wght@1,500&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&family=Varela&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="gaming.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <h2> <a href="#">Gaming On</a></h2>
+                </div>
+                <ul class="sidebar">
+                    <li class="hideonDesk" onclick=closeSidebar()>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li class="btn"><a href="#">Download</a></li>
+                </ul>
+                <nav class="sidebar1">
+                    <ul>
+                        <li class="hideonMobile"><a href="#">Games</a></li>
+                        <li class="hideonMobile"><a href="#">Reviews</a></li>
+                        <li class="hideonMobile"><a href="#">Faq</a></li>
+                        <li class="hideonMobile"><a href="#">Chat</a></li>
+                        <li class="btn hideonMobile"><a href="#">Download</a></li>
+                        <li onclick=openSidebar()><a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+                                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </header>
+            <div class="content">
+                <div class="row">
+                    <div class="main-text">
+                        <h6>#1 Trending </h6>
+                        <h3>Epic Games</h3>
+                        <h1>FORTNITE</h1>
+                        <div class="image1" >
+                            <img   src="anime.png" alt="">
+                        </div>
+        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#">Play Now</a>
+                        <a href="#" class="cta"><i class="fa-solid fa-play"></i> Watch GamePlay</a>
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-apple"></i></a>
+                        <a href="#"><i class="fa-brands fa-windows"></i></a>
+                        <a href="#"><i class="fa-soli fa-n"></i></a>
+                        <a href="#"><i class="fa-brands fa-android"></i></a>
+                        <a href="#"><i class="fa-brands fa-playstation"></i></a>
+                        <a href="#"><i class="fa-brands fa-xbox"></i></a>
+                    </div>
+
+                </div>
+                <div class="image">
+                    <img  src="anime.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
